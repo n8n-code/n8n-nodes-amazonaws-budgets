@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class AmazonawsBudgets implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'amazonaws-budgets',
+		displayName: 'Amazonaws Budgets',
 		name: 'N8nDevAmazonawsBudgets',
 		icon: { light: 'file:./amazonaws-budgets.png', dark: 'file:./amazonaws-budgets.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Use the Amazon Web Services Budgets API to plan your service usage, service costs, and instance reservations. This API reference provides descriptions, syntax, and usage examples for each of the..',
-		defaults: { name: 'amazonaws-budgets' },
+		description: 'AWS Budgets API plans service usage, costs, and reservations.',
+		defaults: { name: 'Amazonaws Budgets' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

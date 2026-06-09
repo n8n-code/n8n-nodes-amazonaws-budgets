@@ -53,9 +53,34 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Post create budget, Post create budget action, Post create notification, Post create subscriber, Post delete budget, Post delete budget action, Post delete notification, Post delete subscriber, Post describe budget, Post describe budget action, Post describe budget action histories, Post describe budget actions for account, Post describe budget actions for budget, Post describe budget notifications for account, Post describe budget performance history, Post describe budgets, Post describe notifications for budget, Post describe subscribers for notification, Post execute budget action, Post update budget, Post update budget action, Post update notification, Post update subscriber |
+<details>
+<summary><b>Default</b> (23 operations)</summary>
+
+- Post Create Budget
+- Post Create Budget Action
+- Post Create Notification
+- Post Create Subscriber
+- Post Delete Budget
+- Post Delete Budget Action
+- Post Delete Notification
+- Post Delete Subscriber
+- Post Describe Budget
+- Post Describe Budget Action
+- Post Describe Budget Action Histories
+- Post Describe Budget Actions For Account
+- Post Describe Budget Actions For Budget
+- Post Describe Budget Notifications For Account
+- Post Describe Budget Performance History
+- Post Describe Budgets
+- Post Describe Notifications For Budget
+- Post Describe Subscribers For Notification
+- Post Execute Budget Action
+- Post Update Budget
+- Post Update Budget Action
+- Post Update Notification
+- Post Update Subscriber
+
+</details>
 
 ---
 

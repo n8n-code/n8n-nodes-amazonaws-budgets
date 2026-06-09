@@ -8,7 +8,7 @@ import type {
 export class AmazonawsBudgetsApi implements ICredentialType {
 	name = 'N8nDevAmazonawsBudgetsApi';
 
-	displayName = 'amazonaws-budgets API';
+	displayName = 'Amazonaws Budgets API';
 
 	icon: Icon = { light: 'file:../nodes/AmazonawsBudgets/amazonaws-budgets.png', dark: 'file:../nodes/AmazonawsBudgets/amazonaws-budgets.dark.png' };
 
@@ -22,7 +22,7 @@ export class AmazonawsBudgetsApi implements ICredentialType {
 			default: 'https://budgets.amazonaws.com',
 			required: true,
 			placeholder: 'https://budgets.amazonaws.com',
-			description: 'The base URL of your amazonaws-budgets API server',
+			description: 'The base URL of your Amazonaws Budgets API server',
 		},
 		{
 			displayName: 'API Key',
